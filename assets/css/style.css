@@ -1,0 +1,188 @@
+body {
+    background-image:url('../images/wood_pattern.png');
+    background-repeat: repeat;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin: 0;
+}
+
+#masterContainer {
+    padding: 0;
+    overflow: hidden;
+}
+
+#headerArea {
+    background-color: #ffffff;
+    border-bottom: 3px solid #dddddd;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin: 0;
+    margin-bottom: 10px;
+    height: 100%;
+}
+
+#headerContentWrapper {
+    height: 100%;
+}
+
+#myName {
+    height: 100%;
+    text-align: center;
+    background-color: #4aaaa5;
+    z-index: 2;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: auto;
+    height: 100%;
+    width: 250px;
+    line-height: 2.5;
+}
+
+#navigation {
+    display: inline-block;
+    padding: 10px;
+}
+
+#navContainer {
+    background-color: #ffffff;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+.pipeSigns {
+    color: #d1d1d1;
+}
+
+a:link {
+    text-decoration: none;
+    /* Removal of underline on the three links */
+}
+
+a:visited {
+    color: #777777;
+    /* Removal of purple color when a link was visited, matching the regular color */
+}
+
+a:hover{
+    color: #4aaaa5;
+    /* Matching color change when a link is hovered over */
+}
+
+h1, h2 {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+#mainBody {
+    margin-bottom: 10px;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+#mainBodyTitle {
+    margin: 0 auto;
+    width: 90%;
+    color: #4aaaa5;
+    position: relative;
+    border-bottom: 2px solid #dddddd;
+}
+
+#mainBodyContent {
+    margin: 0 auto;
+    width: 95%;
+    position: relative;
+    text-align: justify;
+}
+
+#profilePhoto {
+    margin: 10px;
+}
+
+#aboutMeText {
+    margin: 10px;
+}
+
+input[type=submit] {
+    border: 0;
+    padding: 10px 30px;
+    background: #4aaaa5;
+    color: #ffffff;
+    transition: background-color 0.5s ease;
+    /* gradual transition in color when the submit button is hovered over */
+}
+
+input[type=submit]:hover{
+    background-color: #008B8B;
+    /* the button becomes a darker shade of teal when the user hovers their mouse */
+}
+
+#portfolioTable {
+    margin: 10px;
+    width: 100%;
+}
+
+.imageContainer {
+    display: inline-block;
+    text-align: center;
+    float: none;
+    padding: 0;
+    left: 5%;
+    margin: 10%;
+    width: auto;
+    /* made a div for each box to contain the image and its corresponding banner */
+}
+
+.imageWrapper {
+    padding: 0;
+    text-align: center;
+}
+
+.imageBanner {
+    display: inline-block;
+    float: none;
+    position: absolute;
+    top: 60%;
+    /* these attributes put the banner over the image container with 60% space from the top */
+    z-index: 2;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    color: #ffffff;
+    padding: 0px;
+    width: 200px;
+    height: 15%;
+    text-align: center;
+    line-height: 1.8;
+    transition: background-color 0.5s ease;
+    /* like the submit button from contact.html, the banner's color gradually changes on hover */
+}
+
+.imageBanner:hover {
+    background-color: #008B8B;
+    /* darker shade of teal on hover */
+}
+
+#contactForm {
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+#footerArea {
+    background-color: #666666;
+    height: 80px;
+    width: 100%;
+    bottom: 0;
+    /* fixed position on body and 0 space from bottom to simulate a footer */
+    border-top: 5px solid #4aaaa5;
+    z-index: 2;
+
+}
+
+.test {
+    border: 20px dotted red;
+}

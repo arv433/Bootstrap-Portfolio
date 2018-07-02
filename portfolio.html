@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Arvin's Basic Portfolio</title>
+</head>
+
+<body>
+    <div id="masterContainer" class="container-fluid">
+        <!--The header, footer, and body is identical in all three HTML files-->
+        <div class="row">
+            <div id="headerArea" class="col-sm-12">
+                <div id="headerContentWrapper" class="row">
+                    <div id="myName" class="col-sm-6">
+                        <h1>Arvin Zojaji</h1>
+                    </div>
+                    <div id="navContainer" class="col-sm-6">
+                        <nav class="navbar" id="navigation">
+                            <a href="index.html">About </a>
+                            <span class="pipeSigns">| </span>
+                            <!-- The pipe signs are given spans with the same class in order to give them a lighter color in CSS -->
+                            <a href="portfolio.html">Portfolio </a>
+                            <span class="pipeSigns">| </span>
+                            <a href="contact.html">Contact</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="mainBody" class="container">
+            <div id="mainBodyTitle">
+                <h2>Portfolio</h2>
+            </div>
+            <!--Portfolio is made into a table to neatly organize images with HTML-->
+            <div id="portfolioTable" class="container">
+                <div class="portfolioRow row">
+                    <div class="imageWrapper col-sm-6">
+                        <div class="imageContainer">
+                            <div class="imageBanner">Hangman</div>
+                            <img src="assets/images/150.png" class="img-responsive" alt="firstPlaceholder">
+                        </div>
+                    </div>
+                    <div class="imageWrapper col-sm-6">
+                        <div class="imageContainer container">
+                            <div class="imageBanner">RPG Game</div>
+                            <img src="assets/images/150-2.png" class="img-responsive" alt="secondPlaceholder">
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolioRow row">
+                    <div class="imageWrapper col-sm-6">
+                        <div class="imageContainer container">
+                            <div class="imageBanner">Trivia Game</div>
+                            <img src="assets/images/150-3.png" class="img-responsive" alt="thirdPlaceholder">
+                        </div>
+                    </div>
+                    <div class="imageWrapper col-sm-6">
+                        <div class="imageContainer container">
+                            <div class="imageBanner">Rutgers Info Widget</div>
+                            <img src="assets/images/150-4.png" class="img-responsive" alt="fourthPlaceholder">
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolioRow row">
+                    <div class="imageWrapper col-sm-6">
+                        <div class="imageContainer container">
+                            <div class="imageBanner">Rock Paper Scissors</div>
+                            <img src="assets/images/150-5png" class="img-responsive" alt="fifthPlaceholder">
+                        </div>
+                    </div>
+                    <div class="col-sm-6"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footerArea" class="footer navbar-fixed-bottom"></div>
+    </div>
+</body>
+
+</html>
