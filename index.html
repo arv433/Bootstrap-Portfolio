@@ -12,9 +12,10 @@
 
 <body>
     <div id="masterContainer" class="container-fluid">
-        <!--The header, footer, and body is identical in all three HTML files-->
+        <!-- Having a master container allows the mainBody div to fit the width of the viewport at the 'sm' breakpoint -->
         <div class="row">
             <div id="headerArea" class="col-sm-12">
+                <!-- using boostrap, the header takes up the full width of the screen -->
                 <div id="headerContentWrapper" class="row">
                     <div id="myName" class="col-12 col-sm-2 ml-md-auto">
                         <h1>Arvin Zojaji</h1>
@@ -69,7 +70,7 @@
         </div>
 
         <div id="footerArea" class="footer navbar-fixed-bottom"></div>
-        <!-- A non-breaking space was added to the footer div so that it shows in HTML -->
+        <!-- This bootstrap class allows for a sticky footer -->
     </div>
 </body>
 

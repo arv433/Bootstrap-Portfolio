@@ -12,6 +12,7 @@
 
 <body>
     <div id="masterContainer" class="container-fluid">
+        <!-- Having a master container allows the mainBody div to fit the width of the viewport at the 'sm' breakpoint-->
         <div class="row">
             <div id="headerArea" class="col-sm-12">
                 <div id="headerContentWrapper" class="row">
@@ -40,6 +41,7 @@
                 <form>
                     Name
                     <br>
+                    <!-- the following text fields have the bootstrap container class so that they are responsive to the viewport -->
                     <input type="text" name="name" size="100" class="container">
                     <br>
                     <br>Email
@@ -56,7 +58,9 @@
             </div>
         </div>
 
-        <div id="footerArea"></div>
+        <div id="footerArea" class="footer navbar-fixed-bottom"></div>
+        <!-- This bootstrap class allows for a sticky footer -->
+
     </div>
 </body>
 

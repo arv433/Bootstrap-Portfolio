@@ -175,14 +175,7 @@ input[type=submit]:hover{
 #footerArea {
     background-color: #666666;
     height: 80px;
-    width: 100%;
-    bottom: 0;
-    /* fixed position on body and 0 space from bottom to simulate a footer */
     border-top: 5px solid #4aaaa5;
     z-index: 2;
 
-}
-
-.test {
-    border: 20px dotted red;
 }

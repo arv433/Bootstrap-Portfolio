@@ -12,7 +12,7 @@
 
 <body>
     <div id="masterContainer" class="container-fluid">
-        <!--The header, footer, and body is identical in all three HTML files-->
+        <!-- Having a master container allows the mainBody div to fit the width of the viewport at the 'sm' breakpoint-->
         <div class="row">
             <div id="headerArea" class="col-sm-12">
                 <div id="headerContentWrapper" class="row">
@@ -37,7 +37,7 @@
             <div id="mainBodyTitle">
                 <h2>Portfolio</h2>
             </div>
-            <!--Portfolio is made into a table to neatly organize images with HTML-->
+            <!-- Bootstrap rows and columns are used to neatly organize each portfolio element -->
             <div id="portfolioTable" class="container">
                 <div class="portfolioRow row">
                     <div class="imageWrapper col-sm-6">
@@ -75,11 +75,13 @@
                         </div>
                     </div>
                     <div class="col-sm-6"></div>
+                    <!-- an empty column offsets the first column to the side and allows for easy editing -->
                 </div>
             </div>
         </div>
 
         <div id="footerArea" class="footer navbar-fixed-bottom"></div>
+        <!-- This bootstrap class allows for a sticky footer -->
     </div>
 </body>
 
