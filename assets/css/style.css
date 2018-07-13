@@ -8,6 +8,9 @@ body {
 
 #masterContainer {
     padding: 0;
+    padding-bottom: 80px;
+    /* padding-bottom to always fit footer area without modifying the actual size of the container */
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -99,6 +102,10 @@ h1, h2 {
     text-align: justify;
 }
 
+#mainBodyContainer {
+    padding: 0;
+}
+
 #profilePhoto {
     margin: 10px;
 }
@@ -174,8 +181,10 @@ input[type=submit]:hover{
 
 #footerArea {
     background-color: #666666;
+    position: relative;
+    margin-top: -80px;
     height: 80px;
     border-top: 5px solid #4aaaa5;
     z-index: 2;
-
+    bottom: 0;
 }
