@@ -11,7 +11,7 @@ body {
     padding-bottom: 80px;
     /* padding-bottom to always fit footer area without modifying the actual size of the container */
     height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 #headerArea {
